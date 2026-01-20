@@ -1,0 +1,12 @@
+:root {
+  --color-purple: hsl(232, 58%, 55%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-teal: hsl(180, 100%, 42%);
+  --color-dark-gray: hsl(233, 14%, 25%);
+  --color-magenta: hsl(320, 85%, 41%);
+  --color-gradient-gray-teal: linear-gradient(
+    hsl(233, 14%, 25%),
+    hsl(232, 58%, 55%),
+    hsl(180, 100%, 42%)
+  );
+}

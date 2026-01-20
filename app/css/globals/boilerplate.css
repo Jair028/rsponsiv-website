@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* this makes sure that padding and border will not add on top of any width or height set on an element but be included in the final size. */
+}
+
+* {
+  margin: 0; /* CSS reset type rule */
+}
+body {
+  font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+}
+
+a {
+  text-decoration: none; /* remove text decoration from links */
+}
+img,
+picture,
+svg {
+  max-width: 100%; /* prevent potential horizontal scrolling, they wont get larger than their parent */
+  display: block; /* will allow us to position them layouts better, to get rid the little space at the bottom of inline-elemts */
+}
+p {
+}
+
+img {
+}
